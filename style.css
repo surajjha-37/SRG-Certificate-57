@@ -1,5 +1,5 @@
-body {
-  font-family:font-family: "Nunito Sans", serif;
+  body {
+  font-family: "Nunito Sans", serif;
   background-color: aqua;
   animation: 5s infinite colors ease-in-out;
 }
@@ -80,4 +80,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+.bold {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .bold {
+    font-size: 15px;
+  }
+}
+.form-control {
+  width: 200px;
 }
