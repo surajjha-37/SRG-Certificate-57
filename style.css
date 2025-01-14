@@ -84,7 +84,7 @@ input:checked + .slider:before {
 .bold {
   font-size: 20px;
 }
-.form-control{width:250px;
+.form-control{width:250px;}
 
 @media (max-width: 600px) {
   .bold {
